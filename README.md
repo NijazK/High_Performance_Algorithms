@@ -1,5 +1,5 @@
-# High_Performance_Algorithms
-A curated list of Algorithms and their assembly codes.
+# High Performance Algorithms in C++
+A curated list of Algorithms and their respectable Big O notation.
 
 ## Bellman-Forth Shortest Path
 created by Richard Bellman and Lester Ford, Jr., determines the shortest path from a start vertex to each vertex in a graph. For each vertex, the Bellman-Ford algorithm determines the vertex's distance and predecessor pointer. A vertex's distance is the shortest path distance from the start vertex. A vertex's predecessor pointer points to the previous vertex along the shortest path from the start vertex. The runtime for this algorithm is O(V*E) because of the outer loop executes V-1 times. In each outer loop execution, the algorithm visits each vertex and follows the subset of edges to adjacent vertices, following a total of E edges across all loop executions.
